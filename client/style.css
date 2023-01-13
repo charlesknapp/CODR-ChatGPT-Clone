@@ -18,7 +18,7 @@ nav{
   padding:16px 32px;
   justify-content:space-between;
   align-items:center;
-  max-width: 96%;
+  max-width: 72%;
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 6px;
@@ -123,10 +123,12 @@ nav{
 .wrapper {
   width: 100%;
   padding: 15px;
+  border-radius: 6px;
 }
 
 .ai {
   background: #40414F;
+  border-radius: 6px;
 }
 
 .chat {
@@ -242,5 +244,10 @@ form img {
   * {
     max-height: 92vh;
     max-width: 100%;
+  }
+  .wrapper {
+    width: 72%;
+    padding: 15px;
+    margin: 0 auto;
   }
 }
