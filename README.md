@@ -1,7 +1,9 @@
 # CODR
 Your intelligent personal assistant! This project implements the usage of OpenAI's latest GPT-3 model and all the interesting functionality of it's neural text interpriters.
 
-<img src="https://i.ibb.co/0nRLm3C/codr-example-gif.gif" />
+<img src="https://i.ibb.co/m58WdXp/codr-nav.png" /><br>
+<img src="https://i.ibb.co/Ky1bQSR/codr-user-Question.png" /><br>
+<img src="https://i.ibb.co/02JMBr2/codr-bot-Answer.png" /><br>
 
 ## Getting Started
 It's recommended to sign up for OpenAI's api - you'll need this for an API key to comunicate with their free API.<br>
