@@ -237,6 +237,9 @@ form img {
   * {
     max-height: 82vh;
   }
+  .nav {
+    max-width: 96%;
+  }
 }
 
 /** TABLET / DESKTOP RESPONSIVE **/
