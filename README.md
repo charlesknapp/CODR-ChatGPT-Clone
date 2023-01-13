@@ -5,6 +5,7 @@ Your intelligent personal assistant! This project implements the usage of OpenAI
 
 ## Getting Started
 It's recommended to sign up for OpenAI's api - you'll need this for an API key to comunicate with their free API.
+<a href="https://openai.com/api">Click me to visit OpenAI's API</a>
 
 ### 1. Installing NPM dependencies
 Install the required resources in both the client and server folder with `npm install` <br>
