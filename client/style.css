@@ -44,6 +44,7 @@ nav {
 }
 .logo span{
   color:rgb(169, 185, 185);
+  font-size: 12px;
 }
 .nav-links{
   display:flex;
