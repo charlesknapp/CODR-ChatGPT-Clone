@@ -241,6 +241,9 @@ form img {
     max-width: 96%;
     margin: 0 auto;
   }
+  .nav {
+    margin-top: 1%;
+  }
 }
 
 /** TABLET / DESKTOP RESPONSIVE **/
