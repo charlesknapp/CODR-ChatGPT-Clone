@@ -237,11 +237,9 @@ form img {
   * {
     max-height: 82vh;
   }
-  .nav {
+  .nav, .wrapper {
     max-width: 96%;
-  }
-  .wrapper {
-    max-width: 96%;
+    margin: 0 auto;
   }
 }
 
