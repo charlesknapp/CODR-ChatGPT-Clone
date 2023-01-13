@@ -12,4 +12,4 @@ Install the required resources in both the client and server folder with `npm in
 
 ### 2. Running Local Server
 For the server - run the command `npm run server` <br>
-For the client - run the command `nodemon`
+For the client - run the command `nodemon` or `npm run dev`
