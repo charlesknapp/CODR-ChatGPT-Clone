@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans-serif;
-  max-height: 90vh;
+  max-height: 85vh;
 }
 
 body {
@@ -201,5 +201,12 @@ form img {
 @media only screen and (max-width: 480px) {
   form {
     max-width: 96%;
+  }
+}
+
+/** TABLET / DESKTOP RESPONSIVE **/
+@media only screen and (min-width: 968px) {
+  * {
+    max-height: 100vh;
   }
 }
