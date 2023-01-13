@@ -4,7 +4,7 @@ Your intelligent personal assistant! This project implements the usage of OpenAI
 <img src="https://i.ibb.co/SPDBS41/codr-example.gif" />
 
 ## Getting Started
-It's recommended to sign up for OpenAI's api - you'll need this for an API key to comunicate with their free API.
+It's recommended to sign up for OpenAI's api - you'll need this for an API key to comunicate with their free API.<br>
 <a href="https://openai.com/api">Click me to visit OpenAI's API</a>
 
 ### 1. Installing NPM dependencies
