@@ -58,6 +58,10 @@ nav{
   display:none;
 }
 
+.cta > a {
+  text-decoration: none;
+}
+
 .btn{
   padding:8px 16px;
   border-radius:50px;
