@@ -20,6 +20,8 @@ nav{
   align-items:center;
   max-width: 96%;
   margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 6px;
 }
 .nav-main{
   display:flex;
