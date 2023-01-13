@@ -207,6 +207,7 @@ form img {
 /** TABLET / DESKTOP RESPONSIVE **/
 @media only screen and (min-width: 968px) {
   * {
-    max-height: 100vh;
+    max-height: 92vh;
+    max-width: 100%;
   }
 }
