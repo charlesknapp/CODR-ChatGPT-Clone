@@ -10,7 +10,7 @@ It's recommended to sign up for OpenAI's api - you'll need this for an API key t
 <a href="https://openai.com/api">Click me to visit OpenAI's API</a>
 
 ### 1. Installing NPM dependencies
-Install the required resources in both the client and server folder with `npm install` <br>
+Install all of the required dependencies for both client and server with `npm install` <br>
 
 ### 2. Running Local Server
 For the server - run the command `npm run server` <br>
