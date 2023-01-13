@@ -14,7 +14,7 @@ body {
 
 nav{
   display:flex;
-  background-color: #53567c;
+  background-color: #27282c;
   padding:16px 32px;
   justify-content:space-between;
   align-items:center;
@@ -29,6 +29,7 @@ nav{
   text-transform: uppercase;
   font-weight:bold;
   letter-spacing: 4px;
+  color: orange;
 }
 .logo span{
   color:rgb(169, 185, 185);
