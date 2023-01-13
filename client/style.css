@@ -12,12 +12,12 @@ body {
   background: #343541;
 }
 
-nav{
-  display:flex;
+nav {
+  display: flex;
   background-color: #27282c;
-  padding:16px 32px;
-  justify-content:space-between;
-  align-items:center;
+  padding: 12px 16px;
+  justify-content: space-between;
+  align-items: center;
   max-width: 72%;
   margin: 0 auto;
   margin-top: 10px;
@@ -27,12 +27,20 @@ nav{
   display:flex;
   gap:32px;
 }
-.logo{
-  font-size:16px;
+.logo > img {
+  max-width: 32px;
+  max-height: 32px;
+}
+.logo {
+  font-size: 16px;
   text-transform: uppercase;
-  font-weight:bold;
+  font-weight: bold;
   letter-spacing: 4px;
   color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 6px;
 }
 .logo span{
   color:rgb(169, 185, 185);
@@ -194,7 +202,7 @@ form {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 8px;
   background: #40414F;
   display: flex;
   flex-direction: row;
