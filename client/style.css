@@ -5,11 +5,56 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans-serif;
-  max-height: 100vh;
+  max-height: 90vh;
 }
 
 body {
   background: #343541;
+}
+
+nav{
+  display:flex;
+  background-color: #53567c;
+  padding:16px 32px;
+  justify-content:space-between;
+  align-items:center;
+  max-width: 100%;
+}
+.nav-main{
+  display:flex;
+  gap:32px;
+}
+.logo{
+  font-size:16px;
+  text-transform: uppercase;
+  font-weight:bold;
+  letter-spacing: 4px;
+}
+.logo span{
+  color:rgb(169, 185, 185);
+}
+.nav-links{
+  display:flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-main > a {
+  text-decoration: none;
+}
+.nav-mobile > a {
+  text-decoration: none;
+}
+
+.nav-mobile{
+  display:none;
+  background-color:var(--light-black);
+  padding:48px;
+  list-style: none;
+  transition: all 15s ease;
+}
+.menu{
+  display:none;
 }
 
 #app {
@@ -150,4 +195,11 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+/** MOBILE RESPONSIVE **/
+@media only screen and (max-width: 480px) {
+  form {
+    max-width: 96%;
+  }
 }
