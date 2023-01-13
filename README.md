@@ -5,9 +5,9 @@ Your intelligent personal assistant! This project implements the usage of OpenAI
 It's recommended to sign up for OpenAI's api - you'll need this for an API key to comunicate with their free API.
 
 ### 1. Installing NPM dependencies
-Change directories into /client and run the command `npm install`
+Change directories into /client and run the command `npm install` <br>
 change directories into /server and run the command `npm install`
 
 ### 2. Running Local Server
-For the server - run the command `npm run server`
+For the server - run the command `npm run server` <br>
 For the client - run the command `nodemon`
