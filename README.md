@@ -12,6 +12,10 @@ It's recommended to sign up for OpenAI's api - you'll need this for an API key t
 ### 1. Installing NodeJS dependencies
 Install all of the required dependencies for both client and server with `npm install` <br>
 
-### 2. Running Local Server
+### 2. Creating Your Environment File
+Make sure to create a `.env` file within your server folder.
+This environment file contains the key `OPENAI_API_KEY` with a value of your API key.
+
+### 3. Running Local Server
 For the server - run the command `npm run server` <br>
 For the client - run the command `nodemon` or `npm run dev`
