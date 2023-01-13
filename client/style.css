@@ -118,10 +118,12 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #40414F;
-
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin-bottom: 1%;
+  box-shadow: 0px 0px 10px #323232;
+  border-radius: 6px;
 }
 
 textarea {
