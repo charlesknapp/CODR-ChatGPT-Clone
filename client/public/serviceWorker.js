@@ -1,9 +1,9 @@
 const CODRBot = "codr-site-v1"
 const assets = [
-  "/",
-  "client/index.html",
-  "/client/assets",
-  "/client/style.css",
+  "../../",
+  "../../client/index.html",
+  "../../client/assets",
+  "../../client/style.css",
 ]
 
 // Handle the PWA cache
