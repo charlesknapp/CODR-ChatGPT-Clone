@@ -264,7 +264,7 @@ form img {
     max-width: 96%;
   }
   * {
-    max-height: 82vh;
+    max-height: 100vh;
   }
   .nav, .wrapper {
     max-width: 96%;
