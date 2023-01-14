@@ -4,17 +4,6 @@ import user from './assets/user.svg'
 const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')
 
-// Check the serviceworker for cache
-
-if ("serviceWorker" in navigator) {
-    window.addEventListener("load", function() {
-      navigator.serviceWorker
-        .register("/serviceWorker.js")
-        .then(res => console.log("service worker registered"))
-        .catch(err => console.log("service worker not registered", err))
-    })
-  }
-
 // Disable right-click for copying content
 document.addEventListener('contextmenu', event => event.preventDefault());
 

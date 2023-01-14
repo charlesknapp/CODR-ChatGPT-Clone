@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CODR - Your Coding Assistant</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="public/manifest.json">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
@@ -37,5 +38,16 @@
     </div>
     </div>
     <script type="module" src="script.js"></script>
+    <script>
+      // Check the serviceworker for cache
+      if ("serviceWorker" in navigator) {
+          window.addEventListener("load", function() {
+            navigator.serviceWorker
+              .register("/serviceWorker.js")
+              .then(res => console.log("service worker registered"))
+              .catch(err => console.log("service worker not registered", err))
+          })
+        }
+    </script>
   </body>
 </html>
