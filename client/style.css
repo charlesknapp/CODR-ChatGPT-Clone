@@ -155,7 +155,7 @@ span#keyCommandText {
 
 .chat {
   width: 100%;
-  max-width: 1280px;
+  max-width: 96%;
   margin: 0 auto;
 
   display: flex;
@@ -285,7 +285,6 @@ form img {
     max-width: 100%;
   }
   .wrapper {
-    width: 72%;
     padding: 15px;
     margin: 0 auto;
   }
