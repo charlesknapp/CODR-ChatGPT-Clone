@@ -296,9 +296,9 @@ form img {
   form {
     max-width: 96%;
   }
-  /** * {
+  * {
     max-height: 90vh;
-  } **/
+  }
   .nav, .wrapper {
     max-width: 96%;
     margin: 0 auto;
