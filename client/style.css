@@ -212,6 +212,11 @@ span#keyCommandText {
   display: none;
 }
 
+.cta {
+  display: flex;
+  align-items: center;
+}
+
 form {
   width: 100%;
   max-width: 96%;

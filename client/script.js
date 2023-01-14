@@ -8,6 +8,7 @@ const chatContainer = document.querySelector('#chat_container')
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 let loadInterval; 
+let widthBodySelector = document.querySelector('body');
 
 function loader(element) {
     element.textContent = ''
@@ -113,6 +114,11 @@ const handleSubmit = async (e) => {
         alert(err)
     }
 }
+
+    // Change width script
+    function changeWidth(widthBodySelector, wd) {
+        widthBodySelector.style.width = wd;
+    }
 
 form.addEventListener('submit', handleSubmit)
 form.addEventListener('keyup', (e) => {
