@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans-serif;
-  max-height: 100vh;
+  /** max-height: 100%; **/
 }
 
 body {
@@ -103,9 +103,22 @@ nav {
   transition:all 0.5s ease;
 }
 
-.btn-primary:hover, .btn-secondary:hover{
+.btn-secondary {
+  background-color: #0061cd;
+  color: white;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.btn-secondary:hover {
+  background: #277edf;
+  color: white;
+}
+
+.btn-primary:hover {
   background-color: #404040;
-  color: orange;
+  color: white;
   transition:all 0.5s ease;
 }
 
@@ -167,7 +180,7 @@ span#keyCommandText {
 
 .chat {
   width: 100%;
-  max-width: 96%;
+  max-width: 100%;
   margin: 0 auto;
 
   display: flex;
@@ -276,9 +289,9 @@ form img {
   form {
     max-width: 96%;
   }
-  * {
+  /** * {
     max-height: 90vh;
-  }
+  } **/
   .nav, .wrapper {
     max-width: 96%;
     margin: 0 auto;
