@@ -4,6 +4,9 @@ import user from './assets/user.svg'
 const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')
 
+// Disable right-click for copying content
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 let loadInterval; 
 
 function loader(element) {
