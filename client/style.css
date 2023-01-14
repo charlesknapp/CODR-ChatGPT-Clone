@@ -124,6 +124,18 @@ nav {
   scroll-behavior: smooth;
 }
 
+.helper_textContainer {
+  color: #686974;
+  font-weight: 500;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+}
+span#keyCommandText {
+  color: rgba(255,165,0,0.56);
+}
+
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
   display: none;
@@ -208,7 +220,7 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-bottom: 1%;
+  margin-bottom: 8px;
   box-shadow: 0px 0px 10px #323232;
   border-radius: 6px;
 }
