@@ -1,0 +1,43 @@
+{
+    "name": "CODR - Your Personal Assistant",
+    "short_name": "CODR",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#343541",
+    "theme_color": "#343541",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "client/assets/icons/icon-72x72.png",
+        "type": "image/png", "sizes": "72x72"
+      },
+      {
+        "src": "client/assets/icons/80.png",
+        "type": "image/png", "sizes": "80x80"
+      },
+      {
+        "src": "client/assets/icons/128.png",
+        "type": "image/png","sizes": "128x128"
+      },
+      {
+        "src": "client/assets/icons/144.png",
+        "type": "image/png", "sizes": "144x144"
+      },
+      {
+        "src": "client/assets/icons/152.png",
+        "type": "image/png", "sizes": "152x152"
+      },
+      {
+        "src": "client/assets/icons/192.png",
+        "type": "image/png", "sizes": "192x192"
+      },
+      {
+        "src": "client/assets/icons/256.png",
+        "type": "image/png", "sizes": "256x256"
+      },
+      {
+        "src": "client/assets/512.png",
+        "type": "image/png", "sizes": "512x512"
+      }
+    ]
+  }
