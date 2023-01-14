@@ -87,6 +87,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
+    // === CHANGE THIS TO YOUR OWN SERVER TO HANDLE THE REQUESTS === //
     const response = await fetch('https://codr.onrender.com', {
         method: 'POST',
         headers: {
