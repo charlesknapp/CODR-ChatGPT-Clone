@@ -60,6 +60,18 @@ nav {
   text-decoration: none;
 }
 
+#versionNum {
+  background: rgb(64, 65, 79);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 6px;
+  padding-left: 6px;
+  padding-right: 1px;
+  font-size: 10px;
+}
+
 .nav-mobile{
   display:none;
   background-color:var(--light-black);
