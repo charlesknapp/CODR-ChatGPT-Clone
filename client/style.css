@@ -265,6 +265,9 @@ form img {
   .nav {
     margin-top: 1%;
   }
+  .helper_text {
+    font-size: 11pt;
+  }
 }
 
 /** TABLET / DESKTOP RESPONSIVE **/
