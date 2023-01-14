@@ -46,16 +46,6 @@
     </div>
     </div>
     <script type="module" src="script.js"></script>
-    <script>
-      // Check the serviceworker for cache
-      if ("serviceWorker" in navigator) {
-          window.addEventListener("load", function() {
-            navigator.serviceWorker
-              .register("public/serviceWorker.js")
-              .then(res => console.log("service worker registered"))
-              .catch(err => console.log("service worker not registered", err))
-          })
-        }
-    </script>
+    <script src="workerHelper.js"></script>
   </body>
 </html>

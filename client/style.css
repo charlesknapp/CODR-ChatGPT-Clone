@@ -53,6 +53,13 @@ nav {
   list-style: none;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 96%;
+  margin: 0 auto;
+}
+
 .nav-main > a {
   text-decoration: none;
 }
