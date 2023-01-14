@@ -131,7 +131,7 @@ nav {
   display: flex;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0px 10px 0px 10px;
+  padding: 5px 10px;
 }
 span#keyCommandText {
   color: rgba(255,165,0,0.56);
