@@ -45,6 +45,7 @@ nav {
 .logo span{
   color:rgb(169, 185, 185);
   font-size: 12px;
+  margin-bottom: 10px;
 }
 .nav-links{
   display:flex;
