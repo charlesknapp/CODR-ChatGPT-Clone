@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CODR - Create an Account</title>
+    <link rel="stylesheet" href="registerstyle.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#343541"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">  
+    <meta name="apple-mobile-web-app-status-bar-style" content="#343541"> 
+    <meta name="apple-mobile-web-app-title" content="CODR">
+    <meta name="msapplication-TileImage" content="assets/icons/icon-144x144.png">
+    <link rel="apple-touch-icon" href="assets/icons/icon-152x152.png"> 
+    <meta name="msapplication-TileColor" content="#343541">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-main">
+          <a href="/"><div class="logo"><img src="/favicon.ico" alt="CODR Logo"> CODR <span id="versionNum">v1</span></div></a>
+      </div>
+      <div class="cta">
+        <a href="#"><button class="btn btn-secondary"><i class="fas fa-user" style="margin-right: 6px;"></i> Register</button></a>
+        <a href="https://github.com/charlesknapp/CODR" target="_blank"><button class="btn btn-primary"><i class="fab fa-github" style="margin-right: 6px;"></i> Github</button></a>
+      </div>
+      <div class="menu">
+        <button class="btn btn-primary menu"><i class="bi-list"></i></button>
+        <ul class="nav-mobile">
+          <a href="/"><div class="logo"><img src="/favicon.ico" alt="CODR Logo"> CODR <span>v1</span></div></a>
+        </ul>
+      </div>
+  </nav>
+  <div class="container" id="container">
+    <div class="form-container  sign-up-container">
+        <form action="#">
+            <div id="signup-image"><img src="https://i.ibb.co/3sLzNJt/bot-waving-2.png"></div>
+            <div class="button-input-group">
+                <div class="group input-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="group input-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="group input-group">
+                    <input type="password" placeholder="Password" required pattern=".{8,}">
+                </div>
+                <div class="alert-text signup__alert">
+                    <span class="help__text">At least 8 characters</span>
+                </div>
+                <div class="group button-group">
+                    <button class="signup-btn" onclick="return false;">Sign Up</button>
+                </div>
+                <div class="log__in___adata">
+                    <h5 class="" onclick="myFunction___ad()"> LogIn this web</h5>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="form-container  sign-in-container" id="sign__in">
+        <form action="#">
+            <div id="signup-image"><img src="https://i.ibb.co/3sLzNJt/bot-waving-2.png"></div>
+            <div class="button-input-group">
+                <div class="group input-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="group input-group">
+                    <input type="password" placeholder="Password" required pattern=".{8,}">
+                </div>
+                <div class="alert-text signup__alert">
+                    <span class="help__text">At least 8 character</span>
+                </div>
+                <div class="form-link forgot">
+                    <a href="#" class="login-link">Forgot your password?</a>
+                </div>
+                <div class="group button-group">
+                    <button class="signin-btn" onclick="return false;">Sign in</button>
+                </div>
+
+                <div class="log__in___adata">
+                    <h5 class="" onclick="myFunction___hi()"> SignUp this web</h5>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h2>CODR - Your New Personal Assistant</h2><br>
+                <p>CODR is an intelligent assistant that can do many different things for you!<br>
+                From planning a birthday party, to developing complex programming functions,<br>
+                CODR can do it all.
+                </p>
+
+                <div class="group button-group">
+                    <button class="ghost" id="signIn">Sign in</button>
+                </div>
+            </div>
+
+            <div class="overlay-panel overlay-right">
+                <h2>CODR - Your New Personal Assistant</h2><br>
+                <p>CODR is an intelligent assistant that can do many different things for you!<br>
+                From planning a birthday party, to developing complex programming functions,<br>
+                CODR can do it all.
+                </p>
+
+                <div class="group button-group">
+                    <button class="ghost" id="signUp">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <script type="module" src="login-register.js"></script>
+    <script src="workerHelper.js"></script>
+  </body>
+</html>
