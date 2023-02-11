@@ -35,10 +35,14 @@
   </nav>
     <div id="app">
       <div id="chat_container"></div>
-      <form>
-        <textarea name="prompt" rows="1" cols="1" placeholder="Ask CODR anything..."></textarea>
-        <button type="submit"><img src="assets/send-icon.png" alt="Send message"></button>
-      </form>
+      <div style="margin: 0 auto; width: 100%; display: flex; justify-content: center; align-items: center; padding: 0px 20px">
+        <form>
+          <textarea name="prompt" rows="1" cols="1" placeholder=""></textarea>
+          <button type="submit"><img src="assets/send-icon.png" alt="Send message"></button>
+        </form>        
+        <button class="btn btn-primary" style="border-radius: 6px; margin-left: 1rem; background: #27282c73; padding: 10px; color: #aeb0b8; font-size: 16px; font-weight: bold;">Suprise<br />Me</button>
+      </div>
+
       <div class="helper_textContainer">
         <div class="helper_text">
             <span>Press <span id="keyCommandText">SHIFT + ENTER</span> to create a new line when typing your input.</span>
