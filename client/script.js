@@ -1,5 +1,7 @@
 import bot from './assets/bot.svg'
 import user from './assets/user.svg'
+import Notify from 'simple-notify'
+import './node_modules/simple-notify/dist/simple-notify.min.css'
 
 const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')

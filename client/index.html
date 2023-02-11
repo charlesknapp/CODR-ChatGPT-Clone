@@ -8,6 +8,7 @@
     <title>CODR - Your Personal Assistant</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="chatbarScroller.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#343541"/>
     <meta name="apple-mobile-web-app-capable" content="yes">  
@@ -41,7 +42,7 @@
           <textarea id="randTitle" name="prompt" rows="1" cols="1" placeholder=""></textarea>
           <button type="submit"><img src="assets/send-icon.png" alt="Send message"></button>
         </form>        
-        <button onclick="shuffleTitle()" class="btn btn-primary" style="box-shadow: 0px 0px 10px #303030; min-height: 60px; border-radius: 6px; margin-left: 1rem; background: #27282c; padding: 10px; color: #aeb0b8; font-size: 16px; font-weight: semibold;">
+        <button onclick="shuffleTitle()" class="randomToast btn btn-primary" style="box-shadow: 0px 0px 10px #303030; min-height: 60px; border-radius: 6px; margin-left: 1rem; background: #27282c; padding: 10px; color: #aeb0b8; font-size: 16px; font-weight: semibold;">
           Randomize
         </button>
       </div>
@@ -55,5 +56,6 @@
     <script type="module" src="script.js"></script>
     <script src="randomizer.js"></script>
     <script src="workerHelper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
   </body>
 </html>
